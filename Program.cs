@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите первое число");
+﻿// Сравнение двух чисел
+Console.WriteLine("Введите первое число");
 ﻿int Number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int Number2 = Convert.ToInt32(Console.ReadLine());
@@ -12,4 +13,30 @@ int Number2 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Большее число "+ Number1);
         Console.WriteLine("Меньшее число "+ Number2);
     }
+}
+
+// Нахождение макс из трех чисел
+Console.WriteLine("Введите первое число");
+﻿int Number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int Number2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число");
+int Number3 = Convert.ToInt32(Console.ReadLine());
+int NumberMax = Number1;
+{
+    if (Number2 > NumberMax)
+    {
+        NumberMax = Number2;
+        {
+        if (Number3 > NumberMax)
+        {
+        NumberMax = Number3;
+        }
+        }
+    }
+    else if (Number3 > NumberMax)
+    {
+        NumberMax = Number3;
+    }
+    Console.WriteLine("Максимальное число " + NumberMax);
 }
