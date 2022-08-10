@@ -63,10 +63,6 @@ while(N > 0)
     if (N % 2 ==0) 
     {
         Console.Write(N + ", ");
-        N--;
-    } 
-    else 
-    {
-        N--;
-    }
+        } 
+    N--;
 }
