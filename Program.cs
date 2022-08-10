@@ -42,8 +42,9 @@ int NumberMax = Number1;
 }
 
 
-// 
-int Number = 4;
+// Определение четности числа
+Console.WriteLine("Введите число");
+﻿int Number = Convert.ToInt32(Console.ReadLine());
 {
     if(Number % 2 == 0)
     {
@@ -54,8 +55,9 @@ int Number = 4;
     }
 }
 
-//
-int N = 5;
+// Нахождение четных чисел в периоде
+Console.WriteLine("Введите число");
+﻿int N = Convert.ToInt32(Console.ReadLine());
 while(N > 0)
 {
     if (N % 2 ==0) 
