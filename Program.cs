@@ -40,3 +40,18 @@ int NumberMax = Number1;
     }
     Console.WriteLine("Максимальное число " + NumberMax);
 }
+
+
+// 
+int Number = 4;
+{
+    if(Number % 2 == 0)
+    {
+        Console.WriteLine("Число четное");
+    }
+    else {
+        Console.WriteLine("Число нечетное");
+    }
+}
+
+//
